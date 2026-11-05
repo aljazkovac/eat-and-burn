@@ -18,7 +18,7 @@
   6. `SBERT-Automatic-Classification-Menu-Items`
 - [ ] Create Terraform repo (`github-as-code`) for GitHub repos, and spin up/import repos with it; use GitHub Actions / Terragrunt to apply when merging a PR. Consider optimal settings (branch rulesets, squash-merge, auto-delete branches) for repos!
   - [ ] Import existing repos and manage descriptions, topics, visibility, and archiving through Terraform
-- [ ] Decide what to do with `_unpublished_posts/` in `aljazkovac.github.io` (currently visible in the public repo — either move drafts to local Obsidian Vault or make repo private via Cloudflare Pages / GitHub Pro)
+- [x] Decide what to do with `_unpublished_posts/` in `aljazkovac.github.io` (moved drafts to private `aljazkovac/cockpit` repo under `writing/drafts/`)
 
 ## eat-and-burn
 
