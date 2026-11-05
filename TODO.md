@@ -16,7 +16,7 @@
   4. `devops-with-kubernetes`
   5. `yarp-microservices`
   6. `SBERT-Automatic-Classification-Menu-Items`
-- [ ] Create Terraform repo (`github-as-code`) for GitHub repos, and spin up/import repos with it; use GitHub Actions / Terragrunt to apply when merging a PR. Consider optimal settings (branch rulesets, squash-merge, auto-delete branches) for repos!
+- [ ] Create Terraform repo (`github-as-code`) for GitHub repos, and spin up/import repos with it; use GitHub Actions / Terragrunt to apply when merging a PR. Consider optimal settings (branch ruleset[...]
   - [ ] Import existing repos and manage descriptions, topics, visibility, and archiving through Terraform
 - [x] Decide what to do with `_unpublished_posts/` in `aljazkovac.github.io` (moved drafts to private `aljazkovac/cockpit` repo under `writing/drafts/`)
 
@@ -30,3 +30,4 @@
 - [ ] Write tests for the backend, frontend and the MCP: unit, integration, E2E -> use specs and Playwright agents
 - [ ] Create documentation and use a documentation tool to display it somewhere
 - [ ] Host everything in the cloud, using Kubernetes and ArgoCD and Terraform with Terragrunt
+- [ ] Set up observability using Prometheus and Grafana
